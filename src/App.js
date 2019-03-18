@@ -5,6 +5,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.getToday = this.getToday.bind(this);
+    this.convertSiteDate = this.convertSiteDate.bind(this);
     this.state = {
       date: this.getToday(),
       siteDate: this.convertSiteDate()

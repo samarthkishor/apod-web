@@ -20,6 +20,8 @@ export class Apod extends Component {
     };
 
     this.pickDate = this.pickDate.bind(this);
+    this.convertDate = this.convertDate.bind(this);
+    this.convertSiteDate = this.convertSiteDate.bind(this);
   }
 
   async componentDidMount() {
@@ -41,7 +43,7 @@ export class Apod extends Component {
     const newDate = this.convertDate(date);
     const newSiteDate = this.convertSiteDate(date);
     this.setState({ newDate: newDate, siteDate: newSiteDate});
-    this.getApod(date);
+    this.getApod(newDate);
   }
 
   convertDate(date) {
