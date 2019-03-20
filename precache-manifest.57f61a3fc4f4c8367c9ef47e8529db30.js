@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6bfde0a85bbcdbd6a4f1",
+    "revision": "9ae9889e3fea5f6600a4",
     "url": "/apod-web/static/css/main.47c9aa7e.chunk.css"
   },
   {
-    "revision": "6bfde0a85bbcdbd6a4f1",
-    "url": "/apod-web/static/js/main.855ebcdc.chunk.js"
+    "revision": "9ae9889e3fea5f6600a4",
+    "url": "/apod-web/static/js/main.74215602.chunk.js"
   },
   {
     "revision": "a27a4ed45eae3ece1ab0",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/apod-web/static/js/2.bf27abb4.chunk.js"
   },
   {
-    "revision": "07beb96b958a1240f281f2e93407e01e",
+    "revision": "68da550ab787ff791cbb394d6fe4ff0d",
     "url": "/apod-web/index.html"
   }
 ];
